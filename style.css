@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cronometro {
+    background-color: rgb(255, 230, 0);
+    color: rgb(255, 0, 0);
+    padding: 5px;
+    font-size: 18px;
+}
+
+.imageheader img {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 20%;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font: bold;
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+    justify-content: flex-start;
+
+}
+
+.navbar a {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0s;
+}
+
+.navbar a:hover {
+    background-color: rgb(250, 133, 0);
+
+}
+
+.imagemteste {
+    width: 100%;
+    opacity: 20%;
+    color: rgb(0, 255, 170);
+    object-fit: cover;
+}
+
+.main {
+    padding: 20px;
+    flex: 50%;
+    background-color: rgba(250, 194, 194, 0);
+    color: white;
+    font-family: Helvetica;
+    size: 14px;
+}
+
+.side {
+    flex: 50%;
+    background-color: black;
+}
+
+body {
+    background-color: black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 800px) {
+
+    .row,
+    .navbar {
+        flex-direction: column;
+    }
+}

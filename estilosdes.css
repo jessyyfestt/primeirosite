@@ -1,0 +1,23 @@
+
+.catalogoflex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 15px;
+
+
+}
+
+.flex-item {
+    border-style: groove;
+    color: white;
+    margin: 2px;
+    background-color: black;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
